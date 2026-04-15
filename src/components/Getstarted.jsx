@@ -63,10 +63,26 @@ export default function GetStarted() {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const formDataEncoded = new URLSearchParams({
+    "form-name": "audit-request",
+    ...formData,
+  }).toString();
+
+  try {
+    await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: formDataEncoded,
+    });
+
     setSubmitted(true);
-  };
+  } catch (error) {
+    console.error("Error:", error);
+  }
+};
 
   const inputClass =
     "w-full border border-gray-200 rounded-xl px-3.5 py-2 text-[13px] text-gray-700 outline-none focus:border-orange-400 focus:ring-2 focus:ring-orange-100 transition-all duration-200 bg-white";
@@ -119,7 +135,14 @@ export default function GetStarted() {
             </div>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+            <form
+              name="audit-request"
+              method="POST"
+              data-netlify="true"
+              onSubmit={handleSubmit}
+              className="flex flex-col gap-3"
+            >
+              <input type="hidden" name="form-name" value="audit-request" />
 
               {/* Full Name */}
               <div>
