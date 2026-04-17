@@ -106,7 +106,7 @@ function ReviewCard({ t, index }) {
           <img
             src={t.image}
             alt={t.name}
-            className="w-full h-[220px] md:h-full object-cover object-top"
+            className="w-full h-auto md:h-full object-contain"
           />
          
         </div>

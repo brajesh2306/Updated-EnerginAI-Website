@@ -79,7 +79,7 @@ export default function Impact() {
                 <img
                   src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257797/imp1_1_byl3ra.png"
                   alt="Global Electricity Cost"
-                  className="impact-img rounded-xl w-full object-cover h-[180px] cursor-pointer"
+                  className="impact-img rounded-xl w-full h-auto object-contain"
                 />
               </div>
             </div>

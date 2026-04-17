@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="energinai-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EnergInAI</title>
   </head>
@@ -10,7 +10,9 @@
   <body>
 
     <!-- 🔥 Netlify Hidden Form (IMPORTANT) -->
-    <form name="audit-request" data-netlify="true" hidden>
+    <form name="audit-request" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="audit-request" />
+
       <input type="text" name="name" />
       <input type="email" name="email" />
       <input type="tel" name="phone" />

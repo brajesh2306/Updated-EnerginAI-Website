@@ -241,11 +241,18 @@ export default function Home() {
   // ✅ Popup State
   const [showPopup, setShowPopup] = useState(false);
 
-  // ✅ Page load ke 800ms baad popup aayega
   useEffect(() => {
-    const timer = setTimeout(() => setShowPopup(true), 800);
+  const alreadyShown = localStorage.getItem("popupShown");
+
+  if (!alreadyShown) {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+      localStorage.setItem("popupShown", "true"); // mark as shown
+    }, 800);
+
     return () => clearTimeout(timer);
-  }, []);
+  }
+}, []);
 
   return (
     <>

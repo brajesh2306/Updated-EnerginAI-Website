@@ -139,7 +139,7 @@ export default function Product() {
               <img
                 src="https://res.cloudinary.com/dalrx2wig/image/upload/v1776257641/prod2_1_acog7e.png"
                 alt="EnerginAI App"
-                className="pkg-img rounded-2xl w-full object-cover h-[280px] cursor-pointer"
+                className="pkg-img rounded-2xl w-full h-auto object-contain"
               />
             </div>
             <div className="flex-1">
