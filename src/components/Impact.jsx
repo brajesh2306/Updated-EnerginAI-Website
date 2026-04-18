@@ -184,16 +184,14 @@ export default function Impact() {
           <div ref={refQuote} className="impact-row max-w-3xl mx-auto text-center">
 
             {/* Quote */}
-            <div className="flex items-start gap-4 mb-8 text-left">
-              <div className="w-1 flex-shrink-0 self-stretch bg-[#0d1f4c] rounded-full" />
-              <p className="text-[20px] md:text-[24px] font-semibold text-gray-800 leading-snug italic">
-                "The future doesn't just happen—it's built by what we do today."
+            <div className="mb-8 text-center max-w-2xl mx-auto">
+              <p className="text-[20px] md:text-[26px] font-semibold text-gray-800 leading-snug italic">
+                "The future isn’t something that just happens — it’s something we actively create through our choices."
               </p>
             </div>
 
-            {/* Subtext */}
-            <p className="text-[17px] text-gray-500 leading-relaxed mb-10">
-              At EnerginAI, we believe in empowering individuals to take control of their energy story—the power to change the world is in your hands.
+            <p className="text-[17px] text-gray-500 leading-relaxed text-center max-w-xl mx-auto mb-10">
+              At EnerginAI, we empower individuals to take control of their energy journey — because the power to shape a smarter, more sustainable world lies in your hands.
             </p>
 
             {/* ── CTA Button — Link se replace kiya ── */}

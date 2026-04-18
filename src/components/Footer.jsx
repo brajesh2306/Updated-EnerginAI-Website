@@ -78,7 +78,7 @@ export default function Footer() {
         {/* ── Column 3: Contact Card ── */}
         <div>
           <div className="border border-blue-400/40 rounded-2xl p-6 bg-white/5 backdrop-blur-sm">
-            <h4 className="text-[17px] font-bold text-white mb-5">Questions? Contact Us</h4>
+            <h4 className="text-[17px] font-bold text-white mb-5">Contact Us</h4>
 
             <div className="flex flex-col gap-3 mb-6">
               <p className="text-[14px] text-blue-100">
@@ -100,9 +100,9 @@ export default function Footer() {
                 </a>
               </p>
               <p className="text-[14px] text-blue-100">
-                <span className="font-bold text-white">Google Business Profile:</span>{" "}
-                <a href="#" className="hover:text-white transition-colors">
-                  Click here to view
+                <span className="font-bold text-white">Address:</span>{" "}
+                <a href="https://share.google/IsphTnXC0ZLfmnNYm" className="hover:text-white transition-colors">
+                  D/1-33, 3<sup>rd</sup> Floor, IBD Emporia Mall, Kolar Road ,Bhopal ,M.P. - 462042
                 </a>
               </p>
             </div>
@@ -148,7 +148,7 @@ export default function Footer() {
       <div className="border-t border-blue-500/30">
         <div className="max-w-6xl mx-auto px-6 py-5 text-center">
           <p className="text-[13px] text-white">
-            © 2025 EnerginAI™. All Rights Reserved.
+            © 2026 Energinai Private Limited.All Rights Reserved.
           </p>
         </div>
       </div>

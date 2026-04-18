@@ -37,7 +37,7 @@ const animStyles = `
 // ── Testimonial Data ──────────────────────────────────────────────
 const testimonials = [
   {
-    name: "Mr. Sanjeev Swarnkar",
+    name: "Mrs. Girija Swarnkar",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "Sometimes the best decisions begin with a recommendation you trust.",
     summary: "After seeing my sister-in-law's experience with EnerginAI, the decision was easy. The Smart Monitor and App gives us a real-time view of solar generation, consumption, and savings — all in one place. Instead of guessing, we can clearly see how our electricity is being used every day.",
@@ -47,7 +47,7 @@ const testimonials = [
     tag: "Solar + Smart Monitor",
   },
   {
-    name: "Mrs. Girija Swarnkar",
+    name: "Mr. Sanjeev Swarnkar",
     location: "Bhopal, Madhya Pradesh",
     pullQuote: "I don't believe in waiting for problems to grow — I believe in solving them early.",
     summary: "When my bills kept rising, I chose EnerginAI after careful research. Their team designed a solution tailored precisely for my home. The Smart Monitor App completely changed how I manage electricity — I now track real-time generation and make informed decisions with complete visibility.",
